@@ -1,138 +1,79 @@
-Paint Application using OpenGL
-This is a simple Paint Application implemented using OpenGL and GLUT. It allows users to draw shapes, lines, and freehand sketches with various colors and brush sizes. The application also includes features like saving the canvas as an image, clearing the canvas, and adjusting line thickness.
+🎨 Paint App - README 🎨
+A simple and fun Paint Application built with OpenGL and GLUT. Perfect for drawing and doodling! 🖌️
 
-Features
-Shapes: Draw lines, circles, and squares.
+🚀 Features
+Draw Shapes: Lines, circles, and squares.
 
-Freehand Drawing: Use the brush tool to draw freely.
+Brush Mode: Draw freely with your mouse.
 
-Color Selection: Choose from predefined colors (Red, Green, Blue, Black) or use random colors.
+Color Picker: Red, Green, Blue, Black, or random colors.
 
-Eraser: Erase parts of the drawing.
+Eraser: Erase parts of your drawing.
 
-Line Thickness: Adjust the thickness of lines and shapes.
+Save Art: Save your drawing as a PNG file.
 
-Save Canvas: Save the current canvas as a PNG image on your desktop.
+Adjust Line Thickness: Increase or decrease line thickness.
 
-Clear Canvas: Clear the entire canvas or just the lines.
+Clear Canvas: Clear everything or just lines.
 
-Grid Background: A grid background is provided for better alignment.
+🛠️ How to Use
+Run the App: Compile and run Paint.cpp with OpenGL and GLUT.
 
-Controls
-Keyboard Shortcuts
-1: Switch to Line drawing mode.
+Draw:
 
-2: Switch to Circle drawing mode.
+Line: Press 1 or click the line button.
 
-3: Switch to Square drawing mode.
+Circle: Press 2 or click the circle button.
 
-R: Set color to Red.
+Square: Press 3 or click the square button.
 
-G: Set color to Green.
+Colors:
 
-B: Set color to Blue.
+Red: Press R or click the red button.
 
-S: Set color to Black.
+Green: Press G or click the green button.
 
-E: Activate Eraser.
+Blue: Press B or click the blue button.
 
-C: Clear the entire canvas.
+Black: Press S or click the black button.
 
-L: Clear only the lines.
+Brush Mode: Press A or click the brush button.
 
-A: Toggle Brush Mode for freehand drawing.
+Eraser: Press E or click the eraser button.
 
-Q: Toggle Random Color Mode.
+Random Colors: Press Q or click the random color button.
 
-+: Increase line thickness.
+Save Art: Press W or click the save button.
 
--: Decrease line thickness.
+Clear:
 
-W: Save the canvas as a PNG image on the desktop.
+Clear All: Press C or click the clear button.
 
-Space: Exit the application.
+Clear Lines: Press L or click the line clear button.
 
-Mouse Controls
-Left Click: Draw shapes or use the brush tool.
+Line Thickness: Use + and - buttons to adjust.
 
-Left Click + Drag: Draw lines, circles, or squares dynamically.
+🖼️ Screenshot
+Save your artwork by pressing W or clicking the save button. It will save as Paint.jpg on your desktop.
 
-Right Click: Exit the application.
+📝 Code Overview
+This C++ app uses OpenGL and GLUT for graphics. It supports drawing shapes, changing colors, and saving the canvas. The grid and buttons are rendered using OpenGL.
 
-Buttons
-The application provides on-screen buttons for easy access to common features:
+📂 File Structure
+Paint.cpp: Main code file with OpenGL setup and drawing functions.
 
-Line Button: Switch to line drawing mode.
-
-Circle Button: Switch to circle drawing mode.
-
-Square Button: Switch to square drawing mode.
-
-Color Buttons: Red, Green, Blue, and Black.
-
-Clear Button: Clear the entire canvas.
-
-Line Clear Button: Clear only the lines.
-
-Brush Button: Toggle brush mode.
-
-Eraser Button: Activate the eraser.
-
-Increase/Decrease Button: Adjust line thickness.
-
-Save Button: Save the canvas as an image.
-
-Random Color Button: Toggle random color mode.
-
-How to Run
-Prerequisites
-OpenGL and GLUT libraries installed.
-
-GLEW (OpenGL Extension Wrangler Library) installed.
-
-A C++ compiler (e.g., GCC, MSVC).
-
-Steps
-Clone the repository:
-
-bash
-Copy
-git clone https://github.com/your-username/Paint-Application.git
-cd Paint-Application
-Compile the program:
+🛠️ Compilation
+Compile with:
 
 bash
 Copy
 g++ Paint.cpp -o Paint -lGL -lGLU -lglut -lGLEW
-Run the executable:
+Run:
 
 bash
 Copy
 ./Paint
-Screenshots
-Paint Application Screenshot
-
-Code Structure
-Paint.cpp: The main source file containing the OpenGL setup, drawing functions, and event handling.
-
-stb_image_write.h: A single-file library for saving images in PNG format.
-
-Dependencies
-OpenGL: For rendering graphics.
-
-GLUT: For window management and input handling.
-
-GLEW: For managing OpenGL extensions.
-
-stb_image_write: For saving the canvas as a PNG image.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contributing
-Contributions are welcome! If you find any bugs or want to add new features, feel free to open an issue or submit a pull request.
-
-Author
-Your Name
+Author:
+erfan ramezani ziarani
 GitHub: https://github.com/Eerrrfan
 Email: erfan.ramezany22@gmail.com
