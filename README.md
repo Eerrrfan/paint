@@ -134,5 +134,5 @@ Contributions are welcome! If you find any bugs or want to add new features, fee
 
 Author
 Your Name
-GitHub: Eerrrfan
+GitHub: https://github.com/Eerrrfan
 Email: erfan.ramezany22@gmail.com
