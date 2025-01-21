@@ -62,18 +62,11 @@ This C++ app uses OpenGL and GLUT for graphics. It supports drawing shapes, chan
 📂 File Structure
 Paint.cpp: Main code file with OpenGL setup and drawing functions.
 
-🛠️ Compilation
-Compile with:
 
-bash
-Copy
-g++ Paint.cpp -o Paint -lGL -lGLU -lglut -lGLEW
-Run:
-
-bash
-Copy
-./Paint
 Author:
+
 erfan ramezani ziarani
+
 GitHub: https://github.com/Eerrrfan
+
 Email: erfan.ramezany22@gmail.com
